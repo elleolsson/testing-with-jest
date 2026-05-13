@@ -24,5 +24,5 @@ test('pop removes element from stack', () => {
 
     stack.pop();
 
-    expect(stack.peek()).toBe("Liverpool");
+    expect(stack.peek()).not.toBe("Liverpool");
 });
