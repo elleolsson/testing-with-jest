@@ -51,5 +51,5 @@ test('push button changes displayed stack value', async () => {
         .findElement(By.id('top_of_stack'))
         .getText();
 
-    expect(text).toBe("Malmö");
+    expect(text).toBe("Ystad");
 });
